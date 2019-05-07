@@ -153,4 +153,18 @@ extension EasyWork {
 
 }
 
+//MARK: Redict
+extension EasyWork {
 
+    public class EasyRedict_StoryBoard <View: UIViewController> {
+    
+        public static func GetView(storyBoard: String, identifierView: String) -> UIViewController {
+            return RouterHelper<View>().Storyboard_GetView(storyBoard: storyBoard, identifierView: identifierView);
+        }
+    
+        func RedictView_Navigation(parent: UIViewController, view: UIViewController) -> Void {
+            RouterHelper<View>().Storyboard_RedictView_Navigation(parent: parent, view: view);
+        }
+    }
+
+}
