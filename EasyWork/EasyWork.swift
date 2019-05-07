@@ -158,10 +158,18 @@ extension EasyWork {
 
     public class EasyRedict_StoryBoard <View: UIViewController> {
     
+        /// Get View From StoryBoard
+        /// - parameter storyBoard: name of storyboard
+        /// - parameter identifierView: name of storyboard of uiviewcontroller
+        /// - returns: UIViewController
         public static func GetView(storyBoard: String, identifierView: String) -> UIViewController {
             return RouterHelper<View>().Storyboard_GetView(storyBoard: storyBoard, identifierView: identifierView);
         }
     
+        /// Redict View have navigation
+        /// - parameter parent: Current view
+        /// - parameter view: View you want to display
+        /// - returns: Void
         func RedictView_Navigation(parent: UIViewController, view: UIViewController) -> Void {
             RouterHelper<View>().Storyboard_RedictView_Navigation(parent: parent, view: view);
         }
