@@ -25,6 +25,7 @@
 		6601C6C9226B83E100365729 /* EasyWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6601C6C8226B83E100365729 /* EasyWork.swift */; };
 		6601C6CC226B83FD00365729 /* ApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6601C6CA226B83FD00365729 /* ApiProtocol.swift */; };
 		6601C6CD226B83FD00365729 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6601C6CB226B83FD00365729 /* ApiService.swift */; };
+		6604D8A722816AF3005CB9E6 /* RouterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6604D8A622816AF3005CB9E6 /* RouterHelper.swift */; };
 		662299D1226C7E6F001475AB /* MessageReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662299D0226C7E6F001475AB /* MessageReport.swift */; };
 		662299D4226C7E99001475AB /* FunctionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662299D3226C7E99001475AB /* FunctionHelper.swift */; };
 		662299D6226C7EB1001475AB /* ConvertJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662299D5226C7EB1001475AB /* ConvertJson.swift */; };
@@ -41,6 +42,7 @@
 		6601C6C8226B83E100365729 /* EasyWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyWork.swift; sourceTree = "<group>"; };
 		6601C6CA226B83FD00365729 /* ApiProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiProtocol.swift; sourceTree = "<group>"; };
 		6601C6CB226B83FD00365729 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		6604D8A622816AF3005CB9E6 /* RouterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterHelper.swift; sourceTree = "<group>"; };
 		662299D0226C7E6F001475AB /* MessageReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageReport.swift; sourceTree = "<group>"; };
 		662299D3226C7E99001475AB /* FunctionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionHelper.swift; sourceTree = "<group>"; };
 		662299D5226C7EB1001475AB /* ConvertJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertJson.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				662299D3226C7E99001475AB /* FunctionHelper.swift */,
 				662299D5226C7EB1001475AB /* ConvertJson.swift */,
 				662299D7226C98D6001475AB /* SwiftyJSONHelper.swift */,
+				6604D8A622816AF3005CB9E6 /* RouterHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				662299D8226C98D6001475AB /* SwiftyJSONHelper.swift in Sources */,
 				6601C6CD226B83FD00365729 /* ApiService.swift in Sources */,
 				662299D1226C7E6F001475AB /* MessageReport.swift in Sources */,
+				6604D8A722816AF3005CB9E6 /* RouterHelper.swift in Sources */,
 				662299D6226C7EB1001475AB /* ConvertJson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
