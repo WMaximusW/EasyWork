@@ -172,7 +172,7 @@ extension EasyWork {
         /// - parameter parent: Current view
         /// - parameter view: View you want to display
         /// - returns: Void
-        func RedictView_Navigation(parent: UIViewController, view: UIViewController) -> Void {
+        public static func RedictView_Navigation(parent: UIViewController, view: UIViewController) -> Void {
             
             RouterHelper<View>().Storyboard_RedictView_Navigation(parent: parent, view: view);
             
